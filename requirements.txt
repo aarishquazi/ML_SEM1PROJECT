@@ -1,0 +1,25 @@
+# Core numerical and data processing
+numpy
+pandas
+
+# Visualization and image processing
+matplotlib
+Pillow
+scikit-image
+
+# Machine learning
+scikit-learn
+xgboost
+joblib
+
+# Deep learning
+torch
+
+# ECG waveform processing
+wfdb
+
+# Jupyter and progress bars
+jupyterlab
+ipykernel
+ipywidgets
+tqdm
