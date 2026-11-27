@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Root CSV file
+/ptbxl_database.csv
+
+# PTB-XL Plus data
+/data/*
+!/data/processed/
+
+# PTB-XL original ECG project
+/PTBXL_main10sec/*
+!/PTBXL_main10sec/*.ipynb
+!/PTBXL_main10sec/data/
+
+# Include only processed ECG data
+/PTBXL_main10sec/data/*
+!/PTBXL_main10sec/data/processed/
