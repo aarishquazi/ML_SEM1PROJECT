@@ -1,0 +1,46 @@
+{
+  "input_dir": "data/ptb-xl-plus/median_beats/12sl",
+  "output_dir": "data/processed/12sl_median_images_final",
+  "headers_selected": 20914,
+  "images_created": 20914,
+  "conversion_failures": 0,
+  "image_size_pixels": [
+    1200,
+    1200
+  ],
+  "image_layout": "4 rows x 3 columns; standard 12-lead order",
+  "expected_sampling_rate_hz": 500.0,
+  "expected_samples_per_lead": 600,
+  "expected_duration_seconds": 1.2,
+  "wfdb_format": 32,
+  "raw_dtype": "<i4",
+  "wfdb_invalid_value": -2147483648,
+  "invalid_policy": "exact INT32_MIN only",
+  "interpolation": "none; invalid samples drawn as visible gaps",
+  "baseline_policy": "preserve baseline-valued samples; long runs reported as advisory",
+  "header_units_found": [
+    "mV"
+  ],
+  "display_divisor": 1000.0,
+  "display_units": "mV scale empirically cross-checked against 12SL R/Q/S amplitude features",
+  "display_y_limit_mV": 9.0,
+  "grid_spacing": {
+    "horizontal_seconds": 0.04,
+    "vertical_mV": 0.2,
+    "note": "Consistent visualization grid; not a certified physical pixel/mm ECG-paper scale"
+  },
+  "calibration_validation": {
+    "n_feature_comparisons": 452311,
+    "median_abs_error_no_divisor": 550.4489997661645,
+    "median_abs_error_divide_1000": 0.0050000000000000044,
+    "p90_abs_error_divide_1000": 0.019000000000000017,
+    "fraction_within_0_02_mV_divide_1000": 0.9036415209888771,
+    "empirical_result": "supports_divisor_1000",
+    "interpretation": "Compares waveform positive maxima with R_Amp and negative minima with the more negative Q_Amp/S_Amp feature. Some differences are expected because a global waveform extreme is not always the exact annotated wave peak. This is an empirical consistency check, not independent laboratory calibration."
+  },
+  "features_csv_used": "data/ptb-xl-plus/features/12sl_features.csv",
+  "matched_feature_records": 20914,
+  "labels_attached": false,
+  "patient_splits_attached": false,
+  "quality_warning": "Technical/advisory flags are not clinical ECG-quality diagnoses."
+}

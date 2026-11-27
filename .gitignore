@@ -18,3 +18,19 @@ __pycache__/
 # Include only processed ECG data
 /PTBXL_main10sec/data/*
 !/PTBXL_main10sec/data/processed/
+/data/processed/12sl_median_images_final/hog_features/X_test.npy
+/data/processed/12sl_median_images_final/hog_features/X_train.npy
+/data/processed/12sl_median_images_final/hog_features/X_val.npy
+/data/processed/12sl_median_images_final/random_forest.pkl
+/data/processed/12sl_median_images_final/top_5/random_forest.pkl
+/data/processed/12sl_median_images_final/top_10/random_forest.pkl
+/data/processed/12sl_raw_models/pca_models/top_5/random_forest_pca.pkl
+/data/processed/12sl_raw_models/pca_models/top_53/random_forest_pca.pkl
+/data/processed/12sl_raw_models/pca_models/top_10/random_forest_pca.pkl
+/data/processed/12sl_raw_models/raw_signals/X_train.npy
+/data/processed/12sl_raw_models/raw_signals/X_val.npy
+/data/processed/12sl_feature_models/top_53/random_forest.pkl
+/data/processed/12sl_feature_models/pca_results/variance_95/random_forest.pkl
+/PTBXL_main10sec/data/processed/ptbxl_100hz_5class/signals/X_test.npy
+/PTBXL_main10sec/data/processed/ptbxl_100hz_5class/signals/X_train.npy
+/PTBXL_main10sec/data/processed/ptbxl_100hz_5class/signals/X_val.npy

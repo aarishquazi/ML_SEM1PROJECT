@@ -1,0 +1,11 @@
+{
+  "features_csv": "data/ptb-xl-plus/features/12sl_features.csv",
+  "matched_feature_records": 20914,
+  "n_feature_comparisons": 452311,
+  "median_abs_error_no_divisor": 550.4489997661645,
+  "median_abs_error_divide_1000": 0.0050000000000000044,
+  "p90_abs_error_divide_1000": 0.019000000000000017,
+  "fraction_within_0_02_mV_divide_1000": 0.9036415209888771,
+  "empirical_result": "supports_divisor_1000",
+  "interpretation": "Compares waveform positive maxima with R_Amp and negative minima with the more negative Q_Amp/S_Amp feature. Some differences are expected because a global waveform extreme is not always the exact annotated wave peak. This is an empirical consistency check, not independent laboratory calibration."
+}
